@@ -6,10 +6,11 @@ import argparse
 import codecs
 DEFAULT_LINE_LENGTH = 80
 
-# TODO: neka ostaju prazni redovi.
-# TODO: neka se ne dira whitespaceove na pocecima redova
-# TODO:  - a kad se red prelama, onda se te pocetne whitespacee treba isto
-# TODO:    prekopirati na pocetak.
+# Implementation TODOs
+# Leave empty lines as they were.
+# Don't touch whitespace at line beginnings.
+# When breaking a line, the leading whitespace needs to be added to the
+# the beginning of the added new line.
 
 
 # Prepare the arguments.
